@@ -1,0 +1,1 @@
+# yEd-Graph-Editor.AppImage

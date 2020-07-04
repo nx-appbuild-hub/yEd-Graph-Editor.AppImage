@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=yEd Graph Editor
+GenericName=yEd Graph Editor
+Comment=Create diagrams manually, or import your external data for analysis.
+Exec=AppRun %U
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Office;
+X-KDE-SubstituteUID=false
+Icon=yed
+InitialPreference=3
+StartupWMClass=yed
