@@ -9,6 +9,9 @@ all:
 	rpm2cpio build.rpm | cpio -idmv
 
 
+	mkdir -p AppDir/application
+	mkdir -p AppDir/jre
+
 	cp --recursive --force usr/java/jdk-12.0.2/* AppDir/jre
 	cp --recursive --force yed-3.20/* AppDir/application
 
