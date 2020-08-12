@@ -3,4 +3,4 @@ set -e
 
 cd ${APPDIR}/application
 
-${APPDIR}/jre/bin/java -jar yed.jar $@
+${APPDIR}/jre/bin/java -jar yed.jar "$@"
