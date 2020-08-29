@@ -28,8 +28,8 @@ all:
 	mkdir -p AppDir/application
 	mkdir -p AppDir/jre
 
-	cp --recursive --force usr/java/jdk-12.0.2/* AppDir/jre
-	cp --recursive --force yed-3.20/* AppDir/application
+	cp --recursive --force usr/java/jdk-*/* AppDir/jre
+	cp --recursive --force yed-*/* AppDir/application
 
 	chmod +x AppDir/AppRun
 
@@ -39,5 +39,5 @@ all:
 	rm -f *.rpm *.zip *.deb
 	rm -rf AppDir/application
 	rm -rf AppDir/jre
-	rm -rf yed-3.20
+	rm -rf yed-*
 	rm -rf usr
