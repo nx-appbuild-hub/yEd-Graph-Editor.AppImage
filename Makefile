@@ -19,7 +19,7 @@ OUTPUT="yEd-Graph-Editor.AppImage"
 
 all:
 	rm -rf yed-*
-	wget --no-check-certificate --output-document=build.zip --continue https://www.yworks.com/resources/yed/demo/yEd-3.20.1.zip
+	wget --no-check-certificate --output-document=build.zip https://www.yworks.com/resources/yed/demo/yEd-3.20.1.zip
 	unzip -o build.zip
 
 	wget --no-check-certificate --output-document=build.rpm --continue https://forensics.cert.org/centos/cert/8/x86_64/jdk-12.0.2_linux-x64_bin.rpm
