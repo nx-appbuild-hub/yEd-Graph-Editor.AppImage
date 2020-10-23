@@ -18,6 +18,7 @@ OUTPUT="yEd-Graph-Editor.AppImage"
 
 
 all:
+	rm -rf yed-*
 	wget --no-check-certificate --output-document=build.zip --continue https://www.yworks.com/resources/yed/demo/yEd-3.20.1.zip
 	unzip -o build.zip
 
